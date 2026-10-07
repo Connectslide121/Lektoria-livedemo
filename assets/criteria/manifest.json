@@ -1,0 +1,85 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-01-14",
+  "source": "Skolverket Syllabus API",
+  "apiBaseUrl": "https://api.skolverket.se/syllabus/v1",
+  "curriculum": "GR",
+  "curriculumName": "Grundskolan (Lgr22)",
+  "primarySubjectForMvp": "GRGRMSP01",
+  "primaryLanguage": "Spanska",
+  "mvpNote": "MVP targets Spanish teachers in Swedish schools",
+  "subjects": [
+    {
+      "code": "MSP",
+      "subjectCode": "GRGRMSP01",
+      "name": "Moderna språk",
+      "nameEn": "Modern Languages",
+      "primaryLanguage": "Spanska",
+      "file": "msp.json",
+      "version": 15,
+      "gradeYears": ["6", "9"],
+      "abilityAreas": ["reception", "production", "adaptation", "cultural"],
+      "criteriaTypes": ["WITHIN_SCHOOL_CHOICE", "WITHIN_LANGUAGE_CHOICE"],
+      "mvpPrimary": true
+    },
+    {
+      "code": "EN",
+      "subjectCode": "GRGRENG01",
+      "name": "Engelska",
+      "nameEn": "English",
+      "file": "en.json",
+      "version": 14,
+      "gradeYears": ["6", "9"],
+      "abilityAreas": ["reception", "production", "interaction", "cultural"]
+    },
+    {
+      "code": "SV",
+      "subjectCode": "GRGRSVE01",
+      "name": "Svenska",
+      "nameEn": "Swedish",
+      "file": "sv.json",
+      "version": 15,
+      "gradeYears": ["6", "9"],
+      "abilityAreas": ["speaking", "writing", "reading", "information", "language"]
+    }
+  ],
+  "availableSubjectsFromSkolverket": [
+    { "code": "GRGRMSP01", "name": "Moderna språk", "fetched": true, "mvpPrimary": true },
+    { "code": "GRGRENG01", "name": "Engelska", "fetched": true },
+    { "code": "GRGRSVE01", "name": "Svenska", "fetched": true },
+    { "code": "GRGRBIL01", "name": "Bild" },
+    { "code": "GRGRBIO01", "name": "Biologi" },
+    { "code": "GRGRFYS01", "name": "Fysik" },
+    { "code": "GRGRGEO01", "name": "Geografi" },
+    { "code": "GRGRHIS01", "name": "Historia" },
+    { "code": "GRGRHKK01", "name": "Hem- och konsumentkunskap" },
+    { "code": "GRGRIDR01", "name": "Idrott och hälsa" },
+    { "code": "GRGRKEM01", "name": "Kemi" },
+    { "code": "GRGRMAT01", "name": "Matematik" },
+    { "code": "GRGRMUS01", "name": "Musik" },
+    { "code": "GRGRREL01", "name": "Religionskunskap" },
+    { "code": "GRGRSAM01", "name": "Samhällskunskap" },
+    { "code": "GRGRSLJ01", "name": "Slöjd" },
+    { "code": "GRGRSVA01", "name": "Svenska som andraspråk" },
+    { "code": "GRGRTEK01", "name": "Teknik" }
+  ],
+  "gradeSteps": ["E", "D", "C", "B", "A"],
+  "gradeDescriptions": {
+    "E": "Godkänd (lägsta godkända betyg)",
+    "D": "Mellan C och E",
+    "C": "Godkänd med väl godkända kunskaper",
+    "B": "Mellan A och C",
+    "A": "Högsta betyg - väl godkänd"
+  },
+  "criteriaTypes": {
+    "WITHIN_SCHOOL_CHOICE": {
+      "nameSv": "Inom ramen för skolans val",
+      "nameEn": "Within school choice"
+    },
+    "WITHIN_LANGUAGE_CHOICE": {
+      "nameSv": "Inom ramen för språkval",
+      "nameEn": "Within language choice"
+    }
+  },
+  "notes": "Raw API responses are stored in skolverket-*-raw.json files for reference. Clean JSON files (msp.json, en.json, sv.json) are structured for the assessment app."
+}

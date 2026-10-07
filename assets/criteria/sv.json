@@ -1,0 +1,289 @@
+{
+  "subject": "SV",
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "subjectNameEn": "Swedish",
+  "curriculum": "GR",
+  "curriculumName": "Grundskolan",
+  "version": 15,
+  "skolfsGrund": "2010:37",
+  "skolfsAndring": "2024:590",
+  "validFrom": "2022-07-01",
+  "fetchedAt": "2026-01-01T00:00:00Z",
+  "source": "https://api.skolverket.se/syllabus/v1/subjects/GRGRSVE01",
+  "abilityAreas": [
+    {
+      "id": "speaking",
+      "nameSv": "Tala, lyssna och samtala",
+      "nameEn": "Speaking, listening and conversation",
+      "description": "Formulera sig och kommunicera i tal, samtala om olika ämnen"
+    },
+    {
+      "id": "writing",
+      "nameSv": "Läsa och skriva",
+      "nameEn": "Reading and writing",
+      "description": "Skriva olika slags texter, följa språkliga normer"
+    },
+    {
+      "id": "reading",
+      "nameSv": "Läsa och analysera",
+      "nameEn": "Reading and analyzing",
+      "description": "Läsa skönlitteratur och sakprosa, sammanfatta och resonera"
+    },
+    {
+      "id": "information",
+      "nameSv": "Informationssökning och källkritik",
+      "nameEn": "Information search and source criticism",
+      "description": "Söka, välja och värdera information från olika källor"
+    },
+    {
+      "id": "language",
+      "nameSv": "Språkkunskap",
+      "nameEn": "Language knowledge",
+      "description": "Kunskaper om språk och språkbruk i Sverige och Norden"
+    }
+  ],
+  "gradeYears": ["6", "9"],
+  "criteria": [
+    {
+      "id": "SV_6_E_speaking",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "speaking",
+      "textSv": "Eleven samtalar om bekanta ämnen på ett sätt som till viss del upprätthåller samtalen. Dessutom förbereder och genomför eleven muntliga framställningar med i huvudsak fungerande inledning, innehåll och avslutning och viss anpassning till syfte och mottagare.",
+      "keyPhrases": ["till viss del", "i huvudsak fungerande", "viss anpassning"]
+    },
+    {
+      "id": "SV_6_C_speaking",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "speaking",
+      "textSv": "Eleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen relativt väl. Dessutom förbereder och genomför eleven muntliga framställningar med fungerande inledning, innehåll och avslutning och relativt god anpassning till syfte och mottagare.",
+      "keyPhrases": ["relativt väl", "fungerande", "relativt god anpassning"]
+    },
+    {
+      "id": "SV_6_A_speaking",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "speaking",
+      "textSv": "Eleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen väl. Dessutom förbereder och genomför eleven muntliga framställningar med väl fungerande inledning, innehåll och avslutning och god anpassning till syfte och mottagare.",
+      "keyPhrases": ["väl", "väl fungerande", "god anpassning"]
+    },
+    {
+      "id": "SV_6_E_writing",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "writing",
+      "textSv": "Eleven skriver olika slags texter med begripligt innehåll, i huvudsak fungerande struktur och viss språklig variation. Eleven följer grundläggande regler för språkriktighet med viss säkerhet.",
+      "keyPhrases": ["begripligt", "i huvudsak fungerande", "viss språklig variation", "viss säkerhet"]
+    },
+    {
+      "id": "SV_6_C_writing",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "writing",
+      "textSv": "Eleven skriver olika slags texter med relativt tydligt innehåll, fungerande struktur och relativt god språklig variation. Eleven följer grundläggande regler för språkriktighet med relativt god säkerhet.",
+      "keyPhrases": ["relativt tydligt", "fungerande", "relativt god språklig variation", "relativt god säkerhet"]
+    },
+    {
+      "id": "SV_6_A_writing",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "writing",
+      "textSv": "Eleven skriver olika slags texter med tydligt innehåll, väl fungerande struktur och god språklig variation. Eleven följer grundläggande regler för språkriktighet med god säkerhet.",
+      "keyPhrases": ["tydligt", "väl fungerande", "god språklig variation", "god säkerhet"]
+    },
+    {
+      "id": "SV_6_E_reading",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "reading",
+      "textSv": "Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med flyt och visar grundläggande läsförståelse. Dessutom sammanfattar eleven olika texter med viss säkerhet. Eleven för också enkla resonemang om tydligt framträdande budskap i olika texter.",
+      "keyPhrases": ["flyt", "grundläggande läsförståelse", "viss säkerhet", "enkla resonemang"]
+    },
+    {
+      "id": "SV_6_C_reading",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "reading",
+      "textSv": "Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med gott flyt och visar god läsförståelse. Dessutom sammanfattar eleven olika texter med relativt god säkerhet. Eleven för också utvecklade resonemang om tydligt framträdande budskap i olika texter.",
+      "keyPhrases": ["gott flyt", "god läsförståelse", "relativt god säkerhet", "utvecklade resonemang"]
+    },
+    {
+      "id": "SV_6_A_reading",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "reading",
+      "textSv": "Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med mycket gott flyt och visar mycket god läsförståelse. Dessutom sammanfattar eleven olika texter med god säkerhet. Eleven för också välutvecklade resonemang om tydligt framträdande budskap i olika texter.",
+      "keyPhrases": ["mycket gott flyt", "mycket god läsförståelse", "god säkerhet", "välutvecklade resonemang"]
+    },
+    {
+      "id": "SV_6_E_information",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "information",
+      "textSv": "Eleven söker och väljer med viss säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för enkla resonemang om informationens användbarhet.",
+      "keyPhrases": ["viss säkerhet", "enkla resonemang"]
+    },
+    {
+      "id": "SV_6_C_information",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "information",
+      "textSv": "Eleven söker och väljer med relativt god säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för utvecklade resonemang om informationens användbarhet.",
+      "keyPhrases": ["relativt god säkerhet", "utvecklade resonemang"]
+    },
+    {
+      "id": "SV_6_A_information",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "information",
+      "textSv": "Eleven söker och väljer med god säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för välutvecklade resonemang om informationens användbarhet.",
+      "keyPhrases": ["god säkerhet", "välutvecklade resonemang"]
+    },
+    {
+      "id": "SV_6_E_language",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "language",
+      "textSv": "Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.",
+      "keyPhrases": ["enkla resonemang"]
+    },
+    {
+      "id": "SV_6_C_language",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "language",
+      "textSv": "Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.",
+      "keyPhrases": ["enkla resonemang"]
+    },
+    {
+      "id": "SV_6_A_language",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "language",
+      "textSv": "Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.",
+      "keyPhrases": ["enkla resonemang"]
+    },
+    {
+      "id": "SV_9_E_speaking",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "speaking",
+      "textSv": "Eleven samtalar om och diskuterar varierande ämnen på ett sätt som till viss del utvecklar samtalen och diskussionerna. Eleven framför åsikter med till viss del underbyggda argument. Dessutom förbereder och genomför eleven muntliga framställningar med i huvudsak fungerande struktur och innehåll och viss anpassning till syfte, mottagare och sammanhang.",
+      "keyPhrases": ["till viss del", "till viss del underbyggda", "i huvudsak fungerande", "viss anpassning"]
+    },
+    {
+      "id": "SV_9_C_speaking",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "speaking",
+      "textSv": "Eleven samtalar om och diskuterar varierande ämnen på ett sätt som utvecklar samtalen och diskussionerna relativt väl. Eleven framför åsikter med relativt väl underbyggda argument. Dessutom förbereder och genomför eleven muntliga framställningar med fungerande struktur och innehåll och relativt god anpassning till syfte, mottagare och sammanhang.",
+      "keyPhrases": ["relativt väl", "relativt väl underbyggda", "fungerande", "relativt god anpassning"]
+    },
+    {
+      "id": "SV_9_A_speaking",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "speaking",
+      "textSv": "Eleven samtalar om och diskuterar varierande ämnen på ett sätt som utvecklar samtalen och diskussionerna väl. Eleven framför åsikter med väl underbyggda argument. Dessutom förbereder och genomför eleven muntliga framställningar med väl fungerande struktur och innehåll och god anpassning till syfte, mottagare och sammanhang.",
+      "keyPhrases": ["väl", "väl underbyggda", "väl fungerande", "god anpassning"]
+    },
+    {
+      "id": "SV_9_E_writing",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "writing",
+      "textSv": "Eleven skriver olika slags texter med viss språklig variation, i huvudsak fungerande struktur och innehåll samt viss anpassning till texttyp, syfte, mottagare och sammanhang. Eleven följer språkliga normer på ett i huvudsak fungerande sätt.",
+      "keyPhrases": ["viss språklig variation", "i huvudsak fungerande", "viss anpassning", "i huvudsak fungerande sätt"]
+    },
+    {
+      "id": "SV_9_C_writing",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "writing",
+      "textSv": "Eleven skriver olika slags texter med relativt god språklig variation, fungerande struktur och innehåll samt relativt god anpassning till texttyp, syfte, mottagare och sammanhang. Eleven följer språkliga normer på ett fungerande sätt.",
+      "keyPhrases": ["relativt god språklig variation", "fungerande", "relativt god anpassning", "fungerande sätt"]
+    },
+    {
+      "id": "SV_9_A_writing",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "writing",
+      "textSv": "Eleven skriver olika slags texter med god språklig variation, väl fungerande struktur och innehåll samt god anpassning till texttyp, syfte, mottagare och sammanhang. Eleven följer språkliga normer på ett väl fungerande sätt.",
+      "keyPhrases": ["god språklig variation", "väl fungerande", "god anpassning", "väl fungerande sätt"]
+    },
+    {
+      "id": "SV_9_E_reading",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "reading",
+      "textSv": "Eleven läser skönlitteratur och sakprosatexter med flyt och visar grundläggande läsförståelse. Dessutom sammanfattar eleven olika texter med viss säkerhet. Eleven för enkla resonemang om innehållet i olika texter. Eleven visar också grundläggande kunskaper om skönlitteratur och de sammanhang som olika verk har tillkommit i.",
+      "keyPhrases": ["flyt", "grundläggande läsförståelse", "viss säkerhet", "enkla resonemang", "grundläggande kunskaper"]
+    },
+    {
+      "id": "SV_9_C_reading",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "reading",
+      "textSv": "Eleven läser skönlitteratur och sakprosatexter med gott flyt och visar god läsförståelse. Dessutom sammanfattar eleven olika texter med god säkerhet. Eleven för utvecklade resonemang om innehållet i olika texter. Eleven visar också goda kunskaper om skönlitteratur och de sammanhang som olika verk har tillkommit i.",
+      "keyPhrases": ["gott flyt", "god läsförståelse", "god säkerhet", "utvecklade resonemang", "goda kunskaper"]
+    },
+    {
+      "id": "SV_9_A_reading",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "reading",
+      "textSv": "Eleven läser skönlitteratur och sakprosatexter med mycket gott flyt och visar mycket god läsförståelse. Dessutom sammanfattar eleven olika texter med mycket god säkerhet. Eleven för välutvecklade resonemang om innehållet i olika texter. Eleven visar också mycket goda kunskaper om skönlitteratur och de sammanhang som olika verk har tillkommit i.",
+      "keyPhrases": ["mycket gott flyt", "mycket god läsförståelse", "mycket god säkerhet", "välutvecklade resonemang", "mycket goda kunskaper"]
+    },
+    {
+      "id": "SV_9_E_information",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "information",
+      "textSv": "Eleven söker och väljer med viss säkerhet information från olika källor och presenterar informationen på ett i huvudsak fungerande sätt, med egna formuleringar, ämnesrelaterat språk samt citat och källhänvisningar. Eleven för till viss del underbyggda resonemang om informationens och källornas trovärdighet och relevans.",
+      "keyPhrases": ["viss säkerhet", "i huvudsak fungerande", "till viss del underbyggda"]
+    },
+    {
+      "id": "SV_9_C_information",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "information",
+      "textSv": "Eleven söker och väljer med relativt god säkerhet information från olika källor och presenterar informationen på ett fungerande sätt, med egna formuleringar, ämnesrelaterat språk samt citat och källhänvisningar. Eleven för relativt väl underbyggda resonemang om informationens och källornas trovärdighet och relevans.",
+      "keyPhrases": ["relativt god säkerhet", "fungerande", "relativt väl underbyggda"]
+    },
+    {
+      "id": "SV_9_A_information",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "information",
+      "textSv": "Eleven söker och väljer med god säkerhet information från olika källor och presenterar informationen på ett väl fungerande sätt, med egna formuleringar, ämnesrelaterat språk samt citat och källhänvisningar. Eleven för väl underbyggda resonemang om informationens och källornas trovärdighet och relevans.",
+      "keyPhrases": ["god säkerhet", "väl fungerande", "väl underbyggda"]
+    },
+    {
+      "id": "SV_9_E_language",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "language",
+      "textSv": "Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.",
+      "keyPhrases": ["enkla resonemang"]
+    },
+    {
+      "id": "SV_9_C_language",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "language",
+      "textSv": "Eleven för utifrån givna exempel utvecklade resonemang om några aspekter av språk och språkbruk i Sverige och Norden.",
+      "keyPhrases": ["utvecklade resonemang"]
+    },
+    {
+      "id": "SV_9_A_language",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "language",
+      "textSv": "Eleven för utifrån givna exempel välutvecklade resonemang om några aspekter av språk och språkbruk i Sverige och Norden.",
+      "keyPhrases": ["välutvecklade resonemang"]
+    }
+  ]
+}

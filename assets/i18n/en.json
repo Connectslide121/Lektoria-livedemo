@@ -1,0 +1,723 @@
+{
+  "ASSIGNMENT_TYPES": {
+    "WRITTEN": "Written",
+    "ORAL": "Oral",
+    "READING": "Reading",
+    "LISTENING": "Listening",
+    "MIXED": "Mixed"
+  },
+  "APP": {
+    "TITLE": "Lektoria",
+    "WELCOME": "Welcome to Lektoria"
+  },
+  "DASHBOARD": {
+    "STATS": {
+      "GROUPS": "Groups",
+      "STUDENTS": "Students",
+      "ASSIGNMENTS": "Assignments",
+      "OVERDUE": "Overdue"
+    },
+    "TODAY": "Today's Assignments",
+    "NO_TODAY": "No assignments due today",
+    "OVERDUE": "Overdue Assignments",
+    "DAYS_OVERDUE": "days overdue",
+    "UPCOMING": "Upcoming Assignments",
+    "NO_UPCOMING": "No upcoming assignments this week",
+    "RECENT_ACTIVITY": "Recent Activity",
+    "NO_RECENT": "No activity yet",
+    "QUICK_ACTIONS": "Quick Actions",
+    "VIEW_GROUPS": "View Groups",
+    "VIEW_ASSIGNMENTS": "View Assignments",
+    "VIEW_CRITERIA": "View Criteria",
+    "CREATE_GROUP_SUB": "New Class",
+    "CREATE_ASSIGNMENT_SUB": "New Assignment",
+    "COMPLETE": "Complete",
+    "MARK_COMPLETE": "Mark as Complete",
+    "HIDE_CRITERIA": "Hide Criteria",
+    "SHOW_CRITERIA": "Show Criteria"
+  },
+  "SIDEBAR": {
+    "COLLAPSE": "Collapse sidebar",
+    "EXPAND": "Expand sidebar"
+  },
+  "MENU": {
+    "HOME": "Home",
+    "DASHBOARD": "Dashboard",
+    "GROUPS": "Groups",
+    "ASSIGNMENTS": "Assignments",
+    "CRITERIA": "Criteria",
+    "LESSON_PLANNER": "Lesson Planner",
+    "RESOURCES": "Resources",
+    "SETTINGS": "Settings",
+    "ADMIN": "Admin",
+    "LOGOUT": "Logout"
+  },
+  "COMMON": {
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "CLOSE": "Close",
+    "SAVE": "Save",
+    "SEARCH": "Search",
+    "NO_RESULTS": "No results found",
+    "ADD": "Add",
+    "BACK": "Back",
+    "FORWARD": "Forward",
+    "NEXT": "Next",
+    "ACTIONS": "Actions",
+    "DELETE": "Delete",
+    "SELECT_ALL": "Select all",
+    "CLEAR": "Clear",
+    "LOADING": "Loading..."
+  },
+  "VALIDATION": {
+    "REQUIRED": "This field is required"
+  },
+  "CRITERIA": {
+    "SUBTITLE": "Explore Skolverket's knowledge requirements for different subjects",
+    "SUBJECTS": "Subjects",
+    "SUBJECT": "Subject",
+    "GRADE_YEAR": "Grade Year",
+    "YEAR": "Year",
+    "NO_CRITERIA": "No criteria available for this grade year"
+  },
+  "ASSIGNMENTS": {
+    "TITLE": "Assignments",
+    "SUBTITLE": "Manage your assignment library",
+    "CREATE": "Create assignment",
+    "EDIT": "Edit assignment",
+    "ASSIGN_EXISTING": "Assign existing",
+    "GROUPS_ASSIGNED": "groups assigned",
+    "LABELS": {
+      "START": "Start",
+      "DUE": "Due"
+    },
+    "DELETE": {
+      "TITLE": "Delete assignment",
+      "MESSAGE": "Delete '{{title}}'? It will be hidden from normal views but can be restored from Admin.",
+      "CONFIRM": "Delete"
+    },
+    "REMOVE": {
+      "TITLE": "Remove assignment",
+      "MESSAGE": "Are you sure you want to remove '{{title}}' from this group?",
+      "CONFIRM": "Remove"
+    },
+    "ARCHIVED": {
+      "BUTTON": "Archived",
+      "TITLE": "Archived assignments",
+      "EMPTY": "No archived assignments",
+      "RESTORE": "Restore"
+    },
+    "ARCHIVE_CONFIRM": {
+      "TITLE": "Archive assignment",
+      "MESSAGE": "Archive '{{title}}'? It will be hidden from active assignment lists and can be restored from Archived.",
+      "CONFIRM": "Archive"
+    },
+    "EMPTY": {
+      "TITLE": "No assignments yet",
+      "DESCRIPTION": "Create assignments in your library to reuse across groups.",
+      "GROUP_TITLE": "No assignments assigned",
+      "GROUP_DESCRIPTION": "Create a new assignment or assign an existing one from the library."
+    },
+    "FIELDS": {
+      "TITLE": "Title",
+      "DESCRIPTION": "Description",
+      "SUBJECT": "Subject",
+      "TYPE": "Type",
+      "START_DATE": "Start Date",
+      "DUE_DATE": "Due Date",
+      "WEEKS_TO_CORRECT": "Time to correct (weeks)",
+      "WEIGHT": "Weight",
+      "WEIGHT_HELP": "How much this assignment counts toward the average (default 1)",
+      "SKILLS": "Criteria"
+    },
+    "ACTIONS": {
+      "EDIT": "Edit assignment",
+      "ARCHIVE": "Archive assignment",
+      "DELETE": "Delete assignment"
+    },
+    "SKILLS_HELP": "Select the criteria this assignment will assess",
+    "SKILLS_SELECTED": "{{count}} criteria selected",
+    "GRADE_YEAR": "Grade year",
+    "YEAR_LABEL": "Year {{year}}",
+    "SELECT_YEAR_PROMPT": "Select a grade year above to see skills and their assessment criteria",
+    "SEARCH_PLACEHOLDER": "Search assignments by title, description, type...",
+    "RESULTS_COUNT": "Showing {{count}} of {{total}} assignments",
+    "FILTER": {
+      "BUTTON": "Filter",
+      "TYPE": "Type",
+      "YEAR": "Year",
+      "SKILL": "Skill",
+      "ALL": "All",
+      "CLEAR": "Clear filters"
+    },
+    "SORT": {
+      "LABEL": "Sort by",
+      "DATE": "Date",
+      "TITLE": "Title",
+      "TYPE": "Type",
+      "YEAR": "Year",
+      "ASC": "Ascending",
+      "DESC": "Descending"
+    },
+    "GROUP": {
+      "BY_TEST": "Group by test",
+      "NO_TEST": "Unassigned",
+      "ASSIGNMENT_COUNT": "{{count}} assignments"
+    },
+    "NO_RESULTS": {
+      "TITLE": "No matching assignments",
+      "DESCRIPTION": "Try adjusting your search or filter criteria."
+    },
+    "SKILL": {
+      "listening": "Listening",
+      "speaking": "Speaking",
+      "reading": "Reading",
+      "writing": "Writing",
+      "interaction": "Interaction",
+      "adaptation": "Adaptation",
+      "cultural": "Cultural"
+    }
+  },
+  "GROUPS": {
+    "TITLE": "Groups",
+    "SUBTITLE": "Manage your student groups",
+    "CREATE": "Create group",
+    "CREATE_TITLE": "Create group",
+    "EDIT_TITLE": "Edit group",
+    "LOADING_SUBJECTS": "Loading subjects…",
+    "BACK": "Back to groups",
+    "STUDENTS": "Students",
+    "SEARCH_PLACEHOLDER": "Search groups by name, subject, year...",
+    "RESULTS_COUNT": "Showing {{count}} of {{total}} groups",
+    "FILTER": {
+      "BUTTON": "Filter",
+      "SUBJECT": "Subject",
+      "YEAR": "Year",
+      "ACADEMIC_YEAR": "Academic year",
+      "ALL": "All",
+      "CLEAR": "Clear filters"
+    },
+    "NO_RESULTS": {
+      "TITLE": "No matching groups",
+      "DESCRIPTION": "Try adjusting your search or filter criteria."
+    },
+    "SORT": {
+      "LABEL": "Sort by",
+      "NAME": "Name",
+      "SUBJECT": "Subject",
+      "YEAR": "Year",
+      "ASC": "Ascending",
+      "DESC": "Descending"
+    },
+    "TABS": {
+      "STUDENTS": "Students",
+      "ASSIGNMENTS": "Assignments",
+      "TESTS": "Tests",
+      "HOMEWORK": "Homework",
+      "OVERVIEW": "Overview"
+    },
+    "DETAIL": {
+      "NOT_FOUND": {
+        "TITLE": "Group not found",
+        "DESCRIPTION": "This group may have been deleted or archived."
+      }
+    },
+    "ACTIONS": {
+      "EDIT": "Edit",
+      "ARCHIVE": "Archive",
+      "DELETE": "Delete",
+      "EXPORT_PDF": "Save as PDF"
+    },
+    "EMPTY": {
+      "TITLE": "No groups yet",
+      "DESCRIPTION": "Create a group to start managing students and assessments."
+    },
+    "FIELDS": {
+      "NAME": "Group name",
+      "SUBJECT": "Subject",
+      "SCHOOL_YEAR": "School year",
+      "CURRICULUM": "Curriculum",
+      "ACADEMIC_YEAR": "Academic year",
+      "ACADEMIC_YEAR_HINT": "e.g. 2025-2026. Groups with the same name can be told apart by their academic year.",
+      "YEAR": "Year",
+      "YEAR_HINT": "e.g. 2025/26. Used to organize groups on the overview page.",
+      "YEAR_PLACEHOLDER": "2025/26"
+    },
+    "DELETE": {
+      "TITLE": "Delete group",
+      "MESSAGE": "Delete '{{name}}'? The group, students, assignments, marks, and final grades will be kept and can be restored from Admin.",
+      "CONFIRM": "Delete"
+    },
+    "ARCHIVED": {
+      "BUTTON": "Archived",
+      "TITLE": "Archived groups",
+      "EMPTY": "No archived groups",
+      "RESTORE": "Restore"
+    },
+    "ARCHIVE_CONFIRM": {
+      "TITLE": "Archive group",
+      "MESSAGE": "Archive '{{name}}'? It will be hidden from active group lists and can be restored from Archived.",
+      "CONFIRM": "Archive"
+    },
+    "PDF": {
+      "REPORT": "Group report",
+      "TOC": "Table of contents",
+      "GENERATED_AT": "Generated {{date}}",
+      "SAVE_DIALOG_TITLE": "Save group PDF",
+      "SUCCESS_TITLE": "PDF exported",
+      "SUCCESS_MESSAGE": "{{name}} was saved as a PDF.",
+      "ERROR": "Could not export the group PDF."
+    },
+    "YEAR": {
+      "NO_YEAR": "No year"
+    },
+    "CARRY_OVER": {
+      "BUTTON": "New year",
+      "TITLE": "Copy group to new year",
+      "DESCRIPTION": "Create a copy of this group in a new year. Assignments and marks will not be copied.",
+      "STUDENTS": "Students to include",
+      "CONFIRM": "Create copy"
+    }
+  },
+  "STUDENTS": {
+    "TITLE": "Students",
+    "NAME": "Name",
+    "ADD": "Add student",
+    "REMOVE": "Remove",
+    "FADE": "Fade",
+    "RESTORE": "Restore",
+    "FADED": "Faded",
+    "CREATE_TITLE": "Add student",
+    "EDIT_TITLE": "Edit student",
+    "NO_ASSIGNMENTS_FOR_SKILL": "No assignments for this skill",
+    "VIEW_ASSIGNMENTS": "View assignments",
+    "SEARCH_PLACEHOLDER": "Search students by name...",
+    "RESULTS_COUNT": "Showing {{count}} of {{total}} students",
+    "TOTAL": "{{count}} students",
+    "NO_RESULTS": {
+      "TITLE": "No matching students",
+      "DESCRIPTION": "Try adjusting your search."
+    },
+    "SORT": {
+      "LABEL": "Sort by",
+      "NAME": "Name",
+      "GRADE": "Grade",
+      "ASC": "Ascending",
+      "DESC": "Descending"
+    },
+    "ACTIONS": {
+      "EDIT": "Edit"
+    },
+    "EMPTY": {
+      "TITLE": "No students in this group",
+      "DESCRIPTION": "Add students to start assessing their work."
+    },
+    "FIELDS": {
+      "FIRST_NAME": "First name",
+      "LAST_NAME": "Last name",
+      "DISPLAY_NAME": "Display name (optional)",
+      "NOTES": "Notes (optional)"
+    },
+    "DELETE": {
+      "TITLE": "Remove student",
+      "MESSAGE": "Are you sure you want to remove '{{name}}' from this group?",
+      "CONFIRM": "Remove"
+    },
+    "FADE_CONFIRM": {
+      "TITLE": "Fade student",
+      "MESSAGE": "Fade {{name}}? They will appear faded at the bottom of lists but remain fully gradeable.",
+      "CONFIRM": "Fade"
+    },
+    "RESTORE_CONFIRM": {
+      "TITLE": "Restore student",
+      "MESSAGE": "Restore {{name}} to active status? They will appear in normal student lists and assignment marking again.",
+      "CONFIRM": "Restore"
+    }
+  },
+  "STUDENT_DETAIL": {
+    "MEMBER_SINCE": "Student since",
+    "OVERALL_AVERAGE": "Overall Average",
+    "COMPLETED_ASSIGNMENTS": "Completed Assignments",
+    "TOTAL_MARKS": "Total Marks",
+    "IMPROVING_SKILLS": "Improving Skills",
+    "STRONGEST_SKILL": "Strongest Skill",
+    "NEEDS_IMPROVEMENT": "Needs Improvement",
+    "ASSESSMENTS_COUNT": "{{count}} assessments",
+    "SKILL_BREAKDOWN": "Skill Breakdown",
+    "TIMELINE": "Timeline",
+    "DISTRIBUTION": "Distribution",
+    "ASSESSMENTS": "Assessments",
+    "NO_ASSESSMENTS": "No assessments for this skill yet",
+    "SHOW_BREAKDOWN": "Show per assignment",
+    "HIDE_BREAKDOWN": "Hide breakdown",
+    "AVERAGE": "Average:",
+    "NEXT_GRADE_RANGE": "→ {{grade}}: {{min}}–{{max}}p",
+    "GRADE_DISTRIBUTION": "Grade Distribution",
+    "PROGRESS_OVER_TIME": "Progress Over Time",
+    "ASSIGNMENT_GRADES": "Assignment Grades",
+    "ASSIGNMENT": "Assignment",
+    "GRADE": "Grade",
+    "NO_ASSIGNMENTS": "No assignments assigned to this group yet",
+    "RECENT_WORK": "Recent Work",
+    "NO_COMPLETED_WORK": "No completed assignments yet",
+    "DUE": "Due",
+    "NOTES": "Notes",
+    "STABLE": "Stable",
+    "IMPROVING": "Improving",
+    "DECLINING": "Declining",
+    "RETAKES": "Retakes",
+    "VIEW_MARKING": "View marking",
+    "PREVIOUS_STUDENT": "Previous student",
+    "NEXT_STUDENT": "Next student",
+    "PREVIOUS": "Previous",
+    "NEXT": "Next",
+    "POINT_AVERAGE": {
+      "TITLE": "Point average",
+      "DESCRIPTION": "Teacher reference based on the Swedish grade point scale.",
+      "AVERAGE_LABEL": "Average",
+      "GRADE": "Grade",
+      "POINTS": "Points",
+      "CLICK_FOR_BREAKDOWN": "Click for calculation breakdown",
+      "BREAKDOWN_TITLE": "Average Calculation Breakdown",
+      "COL_ASSIGNMENT": "Assignment",
+      "COL_SKILL": "Skill",
+      "COL_GRADE": "Grade",
+      "COL_POINTS": "Points",
+      "COL_WEIGHT": "Weight",
+      "RETAKE": "retake",
+      "BREAKDOWN_SUMMARY": "{{count}} assessments included in the calculation"
+    },
+    "NOT_FOUND": {
+      "TITLE": "Student not found",
+      "DESCRIPTION": "The student may have been removed from this group."
+    }
+  },
+  "LESSON_PLANNER": {
+    "DESCRIPTION": "This is the Lesson Planner page. Content coming soon.",
+    "AI_READY_TITLE": "AI Assistant Ready",
+    "AI_READY_DESC": "The AI lesson generation tools will appear here."
+  },
+  "RESOURCES": {
+    "DESCRIPTION": "Manage your teaching resources and documents here.",
+    "UPLOAD_NEW": "Upload new resource"
+  },
+  "SETTINGS": {
+    "PROFILE_SECTION": "Profile Settings",
+    "FIRST_NAME": "First name",
+    "LAST_NAME": "Last name",
+    "LANGUAGE": {
+      "TITLE": "Language",
+      "LABEL": "Select language"
+    },
+    "UI_SCALE": {
+      "TITLE": "Interface Size",
+      "DESCRIPTION": "Adjust the size of text and interface elements.",
+      "XS": "XS",
+      "SM": "S",
+      "MD": "M",
+      "LG": "L",
+      "XL": "XL"
+    },
+    "SIDEBAR": {
+      "TITLE": "Sidebar",
+      "DESCRIPTION": "Choose whether the navigation sidebar starts expanded or collapsed.",
+      "COLLAPSED_LABEL": "Start with collapsed sidebar",
+      "COLLAPSED_HELP": "You can change this later here in settings."
+    },
+    "BACKUP": {
+      "TITLE": "Backup & Cloud",
+      "CLOUD_SYNC_TITLE": "Google Drive / Cloud Storage",
+      "CLOUD_SYNC_DESC": "If you have Google Drive (or OneDrive/Dropbox) installed, select a folder there to automatically save a copy of your data in the cloud.",
+      "FOLDER_LABEL": "Backup Location",
+      "NO_PATH": "No backup folder selected",
+      "SELECT_BTN": "Select Backup Folder",
+      "DOWNLOAD_BTN": "Download Backup",
+      "BROWSER_DESC": "The web version cannot automatically save to a folder. Click 'Download Backup' to save a copy manually.",
+      "HELP_TEXT": "Lektoria keeps a live copy (lektoria-backup.json) here on every change, and also creates a timestamped backup each time the app starts. The 10 most recent startup backups are kept automatically.",
+      "WARNING_TITLE": "No backup configured",
+      "WARNING_MESSAGE": "Your data is only saved locally. Configure a backup folder to automatically save copies to the cloud.",
+      "SETUP_NOW": "Set up now"
+    }
+  },
+  "ADMIN": {
+    "DELETED_DATA": {
+      "CARD_TITLE": "Deleted data",
+      "CARD_DESCRIPTION": "Restore soft-deleted groups and assignments with their connected students, marks, and grades.",
+      "CARD_GROUPS": "Groups",
+      "CARD_ASSIGNMENTS": "Assignments",
+      "CARD_GRADES": "Grades",
+      "TITLE": "Deleted data",
+      "SUBTITLE": "Restore soft-deleted records without rebuilding the original group data.",
+      "GROUPS_TITLE": "Deleted groups",
+      "ASSIGNMENTS_TITLE": "Deleted assignments",
+      "NO_GROUPS": "No deleted groups.",
+      "NO_ASSIGNMENTS": "No deleted assignments.",
+      "STUDENT_COUNT": "{{count}} students",
+      "ASSIGNMENT_COUNT": "{{count}} assignments",
+      "MARK_COUNT": "{{count}} marks",
+      "FINAL_GRADE_COUNT": "{{count}} final grades",
+      "RESTORE_GROUP": "Restore group",
+      "RESTORE_ASSIGNMENT": "Restore assignment"
+    },
+    "API_PLAYGROUND": {
+      "TITLE": "Skolverket API Playground",
+      "SUBTITLE": "Explore and test the Swedish National Curriculum API endpoints",
+      "ENDPOINTS": "API Endpoints",
+      "SELECT_ENDPOINT": "Select an Endpoint",
+      "SELECT_ENDPOINT_DESC": "Choose an endpoint from the sidebar to explore the Skolverket Syllabus API. You can test requests, view responses, and understand how to use each endpoint for Lektoria."
+    }
+  },
+  "MARKING": {
+    "STUDENT": "Student",
+    "COMMENT": "Comment",
+    "NO_STUDENTS": "No students in this group. Add students to start marking.",
+    "NO_SKILLS": "No skills selected for this assignment.",
+    "LEGEND": "Grade legend:",
+    "ADD_COMMENT": "Add comment",
+    "COMMENT_TITLE": "Add Comment",
+    "COMMENT_TITLE_FOR": "Edit comment for {{student}}",
+    "COMMENT_PLACEHOLDER": "Enter a comment for this mark...",
+    "EDITOR": {
+      "PARAGRAPH": "Paragraph",
+      "HEADING_1": "Heading 1",
+      "HEADING_2": "Heading 2",
+      "HEADING_3": "Heading 3",
+      "BOLD": "Bold",
+      "ITALIC": "Italic",
+      "UNDERLINE": "Underline",
+      "STRIKE": "Strikethrough",
+      "CODE": "Inline code",
+      "SUBSCRIPT": "Subscript",
+      "SUPERSCRIPT": "Superscript",
+      "BULLET_LIST": "Bullet list",
+      "ORDERED_LIST": "Numbered list",
+      "QUOTE": "Quote",
+      "ALIGN_LEFT": "Align left",
+      "ALIGN_CENTER": "Align center",
+      "ALIGN_RIGHT": "Align right",
+      "ALIGN_JUSTIFY": "Justify",
+      "LINK": "Add or edit link",
+      "UNLINK": "Remove link",
+      "CLEAR_FORMATTING": "Clear formatting",
+      "UNDO": "Undo",
+      "REDO": "Redo"
+    },
+    "PREVIOUS_STUDENT": "Previous student",
+    "NEXT_STUDENT": "Next student",
+    "CLEAR_SELECTION": "Clear selection",
+    "BETWEEN_E_AND_C": "Between E and C",
+    "BETWEEN_C_AND_A": "Between C and A",
+    "NOT_PASSED": "Not passed",
+    "PREVIOUS": "Previous",
+    "NEXT": "Next",
+    "NUMERIC": {
+      "SETUP": "Set up numeric grading",
+      "CONFIGURE": "Numeric grading",
+      "CONFIG_TITLE": "Set up numeric grading",
+      "CONFIG_TITLE_EDIT": "Configure numeric grading",
+      "MAX_SCORE": "Maximum score",
+      "POINTS": "points",
+      "SCORE": "Score",
+      "PERCENT": "Percentage",
+      "GRADE_LABEL": "Grade",
+      "THRESHOLDS": "Grade thresholds",
+      "THRESHOLDS_LABEL": "Grade thresholds (minimum %)",
+      "THRESHOLDS_HINT": "A student needs at least this percentage to achieve each grade. Percentages are rounded normally (0.5 and above rounds up).",
+      "MIN_PERCENT": "Min %",
+      "MAX_SHORT": "max",
+      "SCORE_HINT": "enter max score to convert numbers to grades",
+      "DISABLE": "Disable numeric grading"
+    },
+    "LOCKED_BANNER": "This assignment is marked as complete and cannot be edited.",
+    "LOCKED_UNLOCK": "Unlock",
+    "ABSENT_SHORT": "Absent",
+    "OVERALL_GRADE": "Overall grade",
+    "INCOMPLETE": "Not fully assessed",
+    "ABSENT_TOOLTIP": "Mark student as absent (didn't take this assignment)",
+    "MISSING_GRADES": {
+      "COUNT_LABEL": "missing",
+      "DIALOG_TITLE": "Students missing a grade in {{assignment}}",
+      "DIALOG_SUMMARY": "{{count}} students are still missing an overall grade for this assignment.",
+      "NONE": "All students have a grade for this assignment."
+    },
+    "GRADE_CONFIRM": {
+      "TITLE": "Confirm grade change",
+      "CONFIRM": "Change grade",
+      "STUDENT": "Student",
+      "SKILL": "Skill",
+      "CONTEXT": "Context",
+      "CHANGE": "Change",
+      "ASSIGNMENT_CONTEXT": "Assignment grade",
+      "GLOBAL_CONTEXT": "Global skill grade",
+      "NO_GRADE": "No grade",
+      "ASSIGNMENT_MESSAGE": "Are you sure you want to change {{student}}'s grade for {{skill}} in {{assignment}} from {{from}} to {{to}}?",
+      "GLOBAL_MESSAGE": "Are you sure you want to change {{student}}'s overall {{skill}} grade from {{from}} to {{to}}?",
+      "ABSENT_MESSAGE": "This student already has grades. Marking as absent will clear all grades for this assignment. Continue?"
+    },
+    "GRADE_IMPORT": {
+      "BUTTON": "Import Excel",
+      "BUTTON_TITLE": "Import grades from an Excel file",
+      "TITLE": "Import Grades from Excel",
+      "SKILL_PROMPT": "Which skill should the imported scores be assigned to?",
+      "SELECT_SKILL": "Target skill",
+      "NEXT": "Next",
+      "MATCHED": "{{count}} students matched",
+      "UNMATCHED": "{{count}} students not found",
+      "MAX_SCORE_LABEL": "Maximum score for this assignment",
+      "MAX_SCORE_HINT": "Required to convert raw scores to grade levels.",
+      "MAX_SCORE_REQUIRED": "Please enter a maximum score before importing.",
+      "EXCEL_NAME": "Name in Excel",
+      "SKIP": "skip",
+      "SKIP_HINT": "{{count}} unmatched students will be skipped.",
+      "IMPORT_N": "Import {{count}} students"
+    },
+    "RETAKE": {
+      "BUTTON": "Schedule Retake",
+      "BUTTON_TITLE": "Schedule a retake for students",
+      "DIALOG_TITLE": "Schedule Retake",
+      "EDIT": "Edit retake",
+      "EDIT_DIALOG_TITLE": "Edit Retake",
+      "LABEL": "Retake",
+      "DATE_LABEL": "Retake date",
+      "STUDENTS_LABEL": "Select students",
+      "STUDENTS_SELECTED": "{{count}} selected",
+      "STUDENTS_REQUIRED": "Please select at least one student",
+      "NO_STUDENTS": "No students in this group",
+      "SCHEDULE_BUTTON": "Schedule",
+      "UPDATE_BUTTON": "Save changes",
+      "ACTIVE_GRADE_NOTE": "Retake grade counts",
+      "DELETE": "Delete retake",
+      "HAS_RETAKE_TOOLTIP": "Has a retake",
+      "FILTER_RETAKES": "Show retakes only",
+      "SHOW_ALL": "Show all students",
+      "FILTER_ACTIVE": "Retakes only",
+      "DELETE_CONFIRM_TITLE": "Delete Retake?",
+      "DELETE_CONFIRM_MESSAGE": "This will remove the retake and all associated grades. This action cannot be undone.",
+      "RETAKE_MAX_SCORE": "Retake max"
+    }
+  },
+  "GRADES": {
+    "A": "Excellent",
+    "B": "Very Good",
+    "C": "Good",
+    "D": "Satisfactory",
+    "E": "Adequate",
+    "F": "Failing"
+  },
+  "EXCEL_IMPORT": {
+    "DOWNLOAD_TEMPLATE": "Download Excel Template",
+    "DOWNLOAD_TEMPLATE_SHORT": "Download Template",
+    "UPLOAD_EXCEL": "Upload Excel",
+    "PREVIEW_TITLE": "Preview Import",
+    "WARNINGS_FOUND": "Warnings",
+    "ERRORS_FOUND": "Errors Found",
+    "EXISTING_GROUPS": "Existing Groups",
+    "WILL_ADD_STUDENTS": "Students will be added to these existing groups",
+    "NEW_GROUPS": "New Groups",
+    "WILL_CREATE_GROUPS": "These groups will be created",
+    "STUDENTS": "students",
+    "NO_DATA": "No data found in file",
+    "CONTINUE": "Continue",
+    "CREATE_GROUPS_TITLE": "Create New Groups",
+    "CREATE_GROUPS_DESC": "Fill in information for each new group from the Excel file",
+    "SELECT_SUBJECT": "Select Subject",
+    "SELECT_YEAR": "Select Year",
+    "CREATING": "Creating...",
+    "CREATE_AND_IMPORT": "Create Groups and Import",
+    "CREATE_ERROR": "Failed to create group '{{name}}'",
+    "SUCCESS_TITLE": "Import complete!",
+    "SUCCESS_EXISTING": "Added {{count}} students to existing groups.",
+    "SUCCESS_NEW": "Created {{groups}} groups and added {{students}} students."
+  },
+  "TESTS": {
+    "SEARCH_PLACEHOLDER": "Search tests...",
+    "SORT": {
+      "NAME": "Name",
+      "DATE": "Date"
+    },
+    "NO_RESULTS": {
+      "TITLE": "No tests found",
+      "DESCRIPTION": "Try a different search."
+    },
+    "CREATE_TITLE": "Create test",
+    "EDIT_TITLE": "Edit test",
+    "VIEW_GRADES": "View grades",
+    "ASSIGNMENT_COUNT": "{{count}} assignments",
+    "NO_ASSIGNMENTS": "No assignments",
+    "NO_ASSIGNMENTS_IN_TEST": "No assignments have been added to this test yet. Edit the test to add assignments.",
+    "EMPTY": {
+      "TITLE": "No tests yet",
+      "DESCRIPTION": "Create a test to group assignments together for grading."
+    },
+    "NOT_FOUND": {
+      "TITLE": "Test not found",
+      "DESCRIPTION": "This test may have been deleted."
+    },
+    "DELETE": {
+      "TITLE": "Delete test",
+      "MESSAGE": "Are you sure you want to delete '{{name}}'? This will not delete the assignments inside it.",
+      "CONFIRM": "Delete"
+    },
+    "FIELDS": {
+      "NAME": "Test name",
+      "NAME_PLACEHOLDER": "e.g. Unit 1 Test",
+      "DESCRIPTION": "Description",
+      "DESCRIPTION_PLACEHOLDER": "Optional description...",
+      "START_DATE": "Start date",
+      "DUE_DATE": "Due date",
+      "DUE": "Due",
+      "ASSIGNMENTS": "Include assignments",
+      "ASSIGNMENTS_SELECTED": "{{count}} selected",
+      "NO_ASSIGNMENTS_AVAILABLE": "No assignments in this group yet. Add assignments first.",
+      "IN_OTHER_TEST": "In another test",
+      "ASSIGN_TO_TEST": "Test (optional)",
+      "NO_TEST": "— No test —"
+    }
+  },
+  "HOMEWORK": {
+    "SECTION_TITLE": "Homework",
+    "CREATE_TITLE": "Create homework",
+    "EDIT_TITLE": "Edit homework",
+    "TOTAL": "Total",
+    "CLASS_AVERAGE": "Class average",
+    "MAX_SCORE_SHORT": "max {{score}} p",
+    "ABSENT_SHORT": "Abs.",
+    "MARK_ABSENT": "Mark as absent",
+    "ABSENT_CONFIRM": {
+      "TITLE": "Mark as absent",
+      "MESSAGE": "{{student}} already has {{score}} of {{max}} points on \"{{homework}}\". Marking as absent will remove that score. Continue?"
+    },
+    "MARK_PRESENT": "Clear absence",
+    "MISSING_COUNT": "{{count}} missing",
+    "NO_DESCRIPTION": "No description",
+    "NONE": "No homework in this group yet",
+    "OVERALL": "Overall homework result",
+    "HANDED_IN": "Handed in",
+    "SCORE": "Score",
+    "PERCENT": "Percentage",
+    "STATUS": {
+      "LABEL": "Status",
+      "SCORED": "Handed in",
+      "MISSING": "Missing",
+      "ABSENT": "Absent"
+    },
+    "EMPTY": {
+      "TITLE": "No homework yet",
+      "DESCRIPTION": "Create a homework item to start tracking what your students hand in."
+    },
+    "DELETE": {
+      "TITLE": "Delete homework",
+      "MESSAGE": "Are you sure you want to delete '{{title}}'? All entered scores will be removed as well.",
+      "CONFIRM": "Delete"
+    },
+    "FIELDS": {
+      "TITLE": "Title",
+      "TITLE_PLACEHOLDER": "e.g. Vocabulary chapter 3",
+      "DESCRIPTION": "Description",
+      "DESCRIPTION_PLACEHOLDER": "Optional description...",
+      "DATE": "Date",
+      "MAX_SCORE": "Max score",
+      "MAX_SCORE_INVALID": "Enter a number greater than 0"
+    }
+  }
+}

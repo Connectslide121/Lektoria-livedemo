@@ -1,0 +1,721 @@
+{
+  "ASSIGNMENT_TYPES": {
+    "WRITTEN": "Skriftlig",
+    "ORAL": "Muntlig",
+    "READING": "Läsa",
+    "LISTENING": "Höra",
+    "MIXED": "Blandad"
+  },
+  "APP": {
+    "TITLE": "Lektoria",
+    "WELCOME": "Välkommen till Lektoria"
+  },
+  "DASHBOARD": {
+    "STATS": {
+      "GROUPS": "Grupper",
+      "STUDENTS": "Elever",
+      "ASSIGNMENTS": "Uppgifter",
+      "OVERDUE": "Försenade"
+    },
+    "TODAY": "Dagens uppgifter",
+    "NO_TODAY": "Inga uppgifter idag",
+    "OVERDUE": "Försenade uppgifter",
+    "DAYS_OVERDUE": "dagar försenad",
+    "UPCOMING": "Kommande uppgifter",
+    "NO_UPCOMING": "Inga kommande uppgifter denna vecka",
+    "RECENT_ACTIVITY": "Senaste aktivitet",
+    "NO_RECENT": "Ingen aktivitet ännu",
+    "QUICK_ACTIONS": "Snabbåtgärder",
+    "VIEW_GROUPS": "Visa grupper",
+    "VIEW_ASSIGNMENTS": "Visa uppgifter",
+    "VIEW_CRITERIA": "Visa kunskapskrav",
+    "CREATE_GROUP_SUB": "Ny klass",
+    "CREATE_ASSIGNMENT_SUB": "Ny uppgift",
+    "COMPLETE": "Klar",
+    "MARK_COMPLETE": "Markera som klar",
+    "HIDE_CRITERIA": "Dölj kriterier",
+    "SHOW_CRITERIA": "Visa kriterier"
+  },
+  "SIDEBAR": {
+    "COLLAPSE": "Dölj sidopanelen",
+    "EXPAND": "Visa sidopanelen"
+  },
+  "MENU": {
+    "HOME": "Hem",
+    "DASHBOARD": "Översikt",
+    "GROUPS": "Grupper",
+    "ASSIGNMENTS": "Uppgifter",
+    "CRITERIA": "Kunskapskrav",
+    "LESSON_PLANNER": "Lektionsplanerare",
+    "RESOURCES": "Resurser",
+    "SETTINGS": "Inställningar",
+    "ADMIN": "Admin",
+    "LOGOUT": "Logga ut"
+  },
+  "COMMON": {
+    "CANCEL": "Avbryt",
+    "CONFIRM": "Bekräfta",
+    "CLOSE": "Stäng",
+    "SAVE": "Spara",
+    "SEARCH": "Sök",
+    "NO_RESULTS": "Inga resultat hittades",
+    "ADD": "Lägg till",
+    "BACK": "Tillbaka",
+    "NEXT": "Nästa",
+    "ACTIONS": "Åtgärder",
+    "DELETE": "Ta bort",
+    "SELECT_ALL": "Välj alla",
+    "CLEAR": "Rensa",
+    "LOADING": "Laddar..."
+  },
+  "VALIDATION": {
+    "REQUIRED": "Detta fält är obligatoriskt"
+  },
+  "CRITERIA": {
+    "SUBTITLE": "Utforska Skolverkets kunskapskrav för olika ämnen",
+    "SUBJECTS": "Ämnen",
+    "SUBJECT": "Ämne",
+    "GRADE_YEAR": "Årskurs",
+    "YEAR": "År",
+    "NO_CRITERIA": "Inga kriterier tillgängliga för denna årskurs"
+  },
+  "ASSIGNMENTS": {
+    "TITLE": "Uppgifter",
+    "SUBTITLE": "Hantera ditt uppgiftsbibliotek",
+    "CREATE": "Skapa uppgift",
+    "EDIT": "Redigera uppgift",
+    "ASSIGN_EXISTING": "Tilldela befintlig",
+    "GROUPS_ASSIGNED": "grupper tilldelade",
+    "LABELS": {
+      "START": "Start",
+      "DUE": "Senast"
+    },
+    "DELETE": {
+      "TITLE": "Ta bort uppgift",
+      "MESSAGE": "Ta bort '{{title}}'? Den döljs från vanliga vyer men kan återställas från Admin.",
+      "CONFIRM": "Ta bort"
+    },
+    "REMOVE": {
+      "TITLE": "Ta bort uppgift",
+      "MESSAGE": "Är du säker på att du vill ta bort '{{title}}' från denna grupp?",
+      "CONFIRM": "Ta bort"
+    },
+    "ARCHIVED": {
+      "BUTTON": "Arkiverade",
+      "TITLE": "Arkiverade uppgifter",
+      "EMPTY": "Inga arkiverade uppgifter",
+      "RESTORE": "Återställ"
+    },
+    "ARCHIVE_CONFIRM": {
+      "TITLE": "Arkivera uppgift",
+      "MESSAGE": "Arkivera '{{title}}'? Den döljs från aktiva uppgiftslistor och kan återställas från Arkiverade.",
+      "CONFIRM": "Arkivera"
+    },
+    "EMPTY": {
+      "TITLE": "Inga uppgifter ännu",
+      "DESCRIPTION": "Skapa uppgifter i ditt bibliotek för att återanvända dem i grupper.",
+      "GROUP_TITLE": "Inga uppgifter tilldelade",
+      "GROUP_DESCRIPTION": "Skapa en ny uppgift eller tilldela en befintlig från biblioteket."
+    },
+    "FIELDS": {
+      "TITLE": "Titel",
+      "DESCRIPTION": "Beskrivning",
+      "SUBJECT": "Ämne",
+      "TYPE": "Typ",
+      "START_DATE": "Startdatum",
+      "DUE_DATE": "Inlämningsdatum",
+      "WEEKS_TO_CORRECT": "Tid att rätta (veckor)",
+      "WEIGHT": "Vikt",
+      "WEIGHT_HELP": "Hur mycket denna uppgift räknas i genomsnittet (standard 1)",
+      "SKILLS": "Kriterier"
+    },
+    "ACTIONS": {
+      "EDIT": "Redigera uppgift",
+      "ARCHIVE": "Arkivera uppgift",
+      "DELETE": "Ta bort uppgift"
+    },
+    "SKILLS_HELP": "Välj de kriterier som denna uppgift bedömer",
+    "SKILLS_SELECTED": "{{count}} kriterier valda",
+    "GRADE_YEAR": "Årskurs",
+    "YEAR_LABEL": "Åk {{year}}",
+    "SELECT_YEAR_PROMPT": "Välj en årskurs ovan för att se färdigheter och deras bedömningskriterier",
+    "SEARCH_PLACEHOLDER": "Sök uppgifter efter titel, beskrivning, typ...",
+    "RESULTS_COUNT": "Visar {{count}} av {{total}} uppgifter",
+    "FILTER": {
+      "BUTTON": "Filtrera",
+      "TYPE": "Typ",
+      "YEAR": "År",
+      "SKILL": "Färdighet",
+      "ALL": "Alla",
+      "CLEAR": "Rensa filter"
+    },
+    "SORT": {
+      "LABEL": "Sortera efter",
+      "DATE": "Datum",
+      "TITLE": "Titel",
+      "TYPE": "Typ",
+      "YEAR": "År",
+      "ASC": "Stigande",
+      "DESC": "Fallande"
+    },
+    "GROUP": {
+      "BY_TEST": "Gruppera efter prov",
+      "NO_TEST": "Utan prov",
+      "ASSIGNMENT_COUNT": "{{count}} uppgifter"
+    },
+    "NO_RESULTS": {
+      "TITLE": "Inga matchande uppgifter",
+      "DESCRIPTION": "Prova att justera din sökning eller filterkriterier."
+    },
+    "SKILL": {
+      "listening": "Lyssna",
+      "speaking": "Tala",
+      "reading": "Läsa",
+      "writing": "Skriva",
+      "interaction": "Interaktion",
+      "adaptation": "Anpassning",
+      "cultural": "Kultur"
+    }
+  },
+  "GROUPS": {
+    "TITLE": "Grupper",
+    "SUBTITLE": "Hantera dina elevgrupper",
+    "CREATE": "Skapa grupp",
+    "CREATE_TITLE": "Skapa grupp",
+    "EDIT_TITLE": "Redigera grupp",
+    "LOADING_SUBJECTS": "Laddar ämnen…",
+    "BACK": "Tillbaka till grupper",
+    "STUDENTS": "Elever",
+    "SEARCH_PLACEHOLDER": "Sök grupper efter namn, ämne, årskurs...",
+    "RESULTS_COUNT": "Visar {{count}} av {{total}} grupper",
+    "FILTER": {
+      "BUTTON": "Filtrera",
+      "SUBJECT": "Ämne",
+      "YEAR": "Årskurs",
+      "ACADEMIC_YEAR": "Läsår",
+      "ALL": "Alla",
+      "CLEAR": "Rensa filter"
+    },
+    "NO_RESULTS": {
+      "TITLE": "Inga matchande grupper",
+      "DESCRIPTION": "Prova att justera din sökning eller filterkriterier."
+    },
+    "SORT": {
+      "LABEL": "Sortera efter",
+      "NAME": "Namn",
+      "SUBJECT": "Ämne",
+      "YEAR": "År",
+      "ASC": "Stigande",
+      "DESC": "Fallande"
+    },
+    "GROUP": {
+      "BY_TEST": "Gruppera efter prov",
+      "NO_TEST": "Utan prov",
+      "ASSIGNMENT_COUNT": "{{count}} uppgifter"
+    },
+    "TABS": {
+      "STUDENTS": "Elever",
+      "ASSIGNMENTS": "Uppgifter",
+      "TESTS": "Prov",
+      "HOMEWORK": "Läxor",
+      "OVERVIEW": "Översikt"
+    },
+    "DETAIL": {
+      "NOT_FOUND": {
+        "TITLE": "Gruppen hittades inte",
+        "DESCRIPTION": "Gruppen kan ha tagits bort eller arkiverats."
+      }
+    },
+    "ACTIONS": {
+      "EDIT": "Redigera",
+      "ARCHIVE": "Arkivera",
+      "DELETE": "Ta bort",
+      "EXPORT_PDF": "Spara som PDF"
+    },
+    "EMPTY": {
+      "TITLE": "Inga grupper ännu",
+      "DESCRIPTION": "Skapa en grupp för att börja hantera elever och bedömning."
+    },
+    "FIELDS": {
+      "NAME": "Gruppnamn",
+      "SUBJECT": "Ämne",
+      "SCHOOL_YEAR": "Årskurs",
+      "CURRICULUM": "Läroplan",
+      "ACADEMIC_YEAR": "Läsår",
+      "ACADEMIC_YEAR_HINT": "t.ex. 2025-2026. Grupper med samma namn kan särskiljas med läsåret.",
+      "YEAR": "År",
+      "YEAR_HINT": "t.ex. 2025/26. Används för att organisera grupper på översiktssidan.",
+      "YEAR_PLACEHOLDER": "2025/26"
+    },
+    "DELETE": {
+      "TITLE": "Ta bort grupp",
+      "MESSAGE": "Ta bort '{{name}}'? Gruppen, eleverna, uppgifterna, markeringarna och slutbetygen sparas och kan återställas från Admin.",
+      "CONFIRM": "Ta bort"
+    },
+    "ARCHIVED": {
+      "BUTTON": "Arkiverade",
+      "TITLE": "Arkiverade grupper",
+      "EMPTY": "Inga arkiverade grupper",
+      "RESTORE": "Återställ"
+    },
+    "ARCHIVE_CONFIRM": {
+      "TITLE": "Arkivera grupp",
+      "MESSAGE": "Arkivera '{{name}}'? Den döljs från aktiva grupplistor och kan återställas från Arkiverade.",
+      "CONFIRM": "Arkivera"
+    },
+    "YEAR": {
+      "NO_YEAR": "Inget år"
+    },
+    "PDF": {
+      "REPORT": "Grupprapport",
+      "TOC": "Inneh\u00e5ll",
+      "GENERATED_AT": "Skapad {{date}}",
+      "SAVE_DIALOG_TITLE": "Spara grupp-PDF",
+      "SUCCESS_TITLE": "PDF exporterad",
+      "SUCCESS_MESSAGE": "{{name}} sparades som PDF.",
+      "ERROR": "Kunde inte exportera gruppens PDF."
+    },
+    "CARRY_OVER": {
+      "BUTTON": "Nytt år",
+      "TITLE": "Kopiera grupp till nytt år",
+      "DESCRIPTION": "Skapar en kopia av gruppen i ett nytt år. Uppgifter och markeringar kopieras inte.",
+      "STUDENTS": "Elever att inkludera",
+      "CONFIRM": "Skapa kopia"
+    }
+  },
+  "STUDENTS": {
+    "TITLE": "Elever",
+    "NAME": "Namn",
+    "ADD": "Lägg till elev",
+    "REMOVE": "Ta bort",
+    "FADE": "Tona",
+    "RESTORE": "Återställ",
+    "FADED": "Tonad",
+    "CREATE_TITLE": "Lägg till elev",
+    "EDIT_TITLE": "Redigera elev",
+    "NO_ASSIGNMENTS_FOR_SKILL": "Inga uppgifter för denna färdighet",
+    "VIEW_ASSIGNMENTS": "Visa uppgifter",
+    "SEARCH_PLACEHOLDER": "Sök elever efter namn...",
+    "RESULTS_COUNT": "Visar {{count}} av {{total}} elever",
+    "TOTAL": "{{count}} elever",
+    "NO_RESULTS": {
+      "TITLE": "Inga matchande elever",
+      "DESCRIPTION": "Prova att justera din sökning."
+    },
+    "SORT": {
+      "LABEL": "Sortera efter",
+      "NAME": "Namn",
+      "GRADE": "Betyg",
+      "ASC": "Stigande",
+      "DESC": "Fallande"
+    },
+    "ACTIONS": {
+      "EDIT": "Redigera"
+    },
+    "EMPTY": {
+      "TITLE": "Inga elever i gruppen",
+      "DESCRIPTION": "Lägg till elever för att börja bedöma deras arbete."
+    },
+    "FIELDS": {
+      "FIRST_NAME": "Förnamn",
+      "LAST_NAME": "Efternamn",
+      "DISPLAY_NAME": "Visningsnamn (valfritt)",
+      "NOTES": "Anteckningar (valfritt)"
+    },
+    "DELETE": {
+      "TITLE": "Ta bort elev",
+      "MESSAGE": "Är du säker på att du vill ta bort '{{name}}' från denna grupp?",
+      "CONFIRM": "Ta bort"
+    },
+    "FADE_CONFIRM": {
+      "TITLE": "Tona elev",
+      "MESSAGE": "Tona {{name}}? Eleven visas nedtonad längst ner i listor men kan fortfarande betygsättas.",
+      "CONFIRM": "Tona"
+    },
+    "RESTORE_CONFIRM": {
+      "TITLE": "Återställ elev",
+      "MESSAGE": "Återställ {{name}} till aktiv status? Eleven visas i vanliga elevlistor och vid bedömning igen.",
+      "CONFIRM": "Återställ"
+    }
+  },
+  "STUDENT_DETAIL": {
+    "MEMBER_SINCE": "Elev sedan",
+    "OVERALL_AVERAGE": "Genomsnitt",
+    "COMPLETED_ASSIGNMENTS": "Slutförda uppgifter",
+    "TOTAL_MARKS": "Totala betyg",
+    "IMPROVING_SKILLS": "Förbättrade färdigheter",
+    "STRONGEST_SKILL": "Starkaste färdigheten",
+    "NEEDS_IMPROVEMENT": "Behöver förbättras",
+    "ASSESSMENTS_COUNT": "{{count}} bedömningar",
+    "SKILL_BREAKDOWN": "Färdighetsöversikt",
+    "TIMELINE": "Tidslinje",
+    "DISTRIBUTION": "Fördelning",
+    "ASSESSMENTS": "Bedömningar",
+    "NO_ASSESSMENTS": "Inga bedömningar för denna färdighet ännu",
+    "SHOW_BREAKDOWN": "Visa per uppgift",
+    "HIDE_BREAKDOWN": "Dölj uppdelning",
+    "AVERAGE": "Genomsnitt:",
+    "NEXT_GRADE_RANGE": "→ {{grade}}: {{min}}–{{max}}p",
+    "GRADE_DISTRIBUTION": "Betygsfördelning",
+    "PROGRESS_OVER_TIME": "Utveckling över tid",
+    "ASSIGNMENT_GRADES": "Uppgiftsbetyg",
+    "ASSIGNMENT": "Uppgift",
+    "GRADE": "Betyg",
+    "NO_ASSIGNMENTS": "Inga uppgifter tilldelade gruppen ännu",
+    "RECENT_WORK": "Senaste arbeten",
+    "NO_COMPLETED_WORK": "Inga slutförda uppgifter ännu",
+    "DUE": "Senast",
+    "NOTES": "Anteckningar",
+    "STABLE": "Stabil",
+    "IMPROVING": "Förbättras",
+    "DECLINING": "Sjunker",
+    "RETAKES": "Kompletteringar",
+    "VIEW_MARKING": "Visa rättning",
+    "PREVIOUS_STUDENT": "Föregående elev",
+    "NEXT_STUDENT": "Nästa elev",
+    "PREVIOUS": "Föregående",
+    "NEXT": "Nästa",
+    "POINT_AVERAGE": {
+      "TITLE": "Poängsnitt",
+      "DESCRIPTION": "Lärarreferens baserad på den svenska betygspoängsskalan.",
+      "AVERAGE_LABEL": "Genomsnitt",
+      "GRADE": "Betyg",
+      "POINTS": "Poäng",
+      "CLICK_FOR_BREAKDOWN": "Klicka för beräkningsdetaljer",
+      "BREAKDOWN_TITLE": "Beräkning av genomsnitt",
+      "COL_ASSIGNMENT": "Uppgift",
+      "COL_SKILL": "Förmåga",
+      "COL_GRADE": "Betyg",
+      "COL_POINTS": "Poäng",
+      "COL_WEIGHT": "Vikt",
+      "RETAKE": "omprov",
+      "BREAKDOWN_SUMMARY": "{{count}} bedömningar inkluderade i beräkningen"
+    },
+    "NOT_FOUND": {
+      "TITLE": "Eleven hittades inte",
+      "DESCRIPTION": "Eleven kan ha tagits bort från denna grupp."
+    }
+  },
+  "LESSON_PLANNER": {
+    "DESCRIPTION": "Detta är lektionsplaneraren. Innehåll kommer snart.",
+    "AI_READY_TITLE": "AI-assistent redo",
+    "AI_READY_DESC": "Verktygen för AI-lektionsgenerering kommer att visas här."
+  },
+  "RESOURCES": {
+    "DESCRIPTION": "Hantera dina undervisningsresurser och dokument här.",
+    "UPLOAD_NEW": "Ladda upp ny resurs"
+  },
+  "SETTINGS": {
+    "PROFILE_SECTION": "Profilinställningar",
+    "FIRST_NAME": "Förnamn",
+    "LAST_NAME": "Efternamn",
+    "LANGUAGE": {
+      "TITLE": "Språk",
+      "LABEL": "Välj språk"
+    },
+    "UI_SCALE": {
+      "TITLE": "Gränssnittsstorlek",
+      "DESCRIPTION": "Justera storleken på text och gränssnittselement.",
+      "XS": "XS",
+      "SM": "S",
+      "MD": "M",
+      "LG": "L",
+      "XL": "XL"
+    },
+    "BACKUP": {
+      "TITLE": "Säkerhetskopiering & Moln",
+      "CLOUD_SYNC_TITLE": "Google Drive / Molnlagring",
+      "CLOUD_SYNC_DESC": "Om du har Google Drive (eller OneDrive/Dropbox) installerat, välj en mapp där för att automatiskt spara en kopia av din data i molnet.",
+      "FOLDER_LABEL": "Plats för säkerhetskopia",
+      "NO_PATH": "Ingen backup-mapp vald",
+      "SELECT_BTN": "Välj backup-mapp",
+      "DOWNLOAD_BTN": "Ladda ner backup",
+      "BROWSER_DESC": "Webbversionen kan inte spara automatiskt till en mapp. Klicka på 'Ladda ner backup' för att spara en kopia manuellt.",
+      "HELP_TEXT": "Lektoria håller en aktuell kopia (lektoria-backup.json) här vid varje ändring och skapar dessutom en tidsstämplad backup varje gång appen startar. De 10 senaste startbackuperna behålls automatiskt.",
+      "WARNING_TITLE": "Ingen säkerhetskopia har konfigurerats",
+      "WARNING_MESSAGE": "Din data är endast sparad lokalt. Konfigurera en backup-mapp för att automatiskt spara kopior till molnet.",
+      "SETUP_NOW": "Konfigurera nu"
+    }
+  },
+  "ADMIN": {
+    "DELETED_DATA": {
+      "CARD_TITLE": "Borttagen data",
+      "CARD_DESCRIPTION": "Återställ mjukt borttagna grupper och uppgifter med kopplade elever, markeringar och betyg.",
+      "CARD_GROUPS": "Grupper",
+      "CARD_ASSIGNMENTS": "Uppgifter",
+      "CARD_GRADES": "Betyg",
+      "TITLE": "Borttagen data",
+      "SUBTITLE": "Återställ mjukt borttagna poster utan att bygga upp gruppdatan igen.",
+      "GROUPS_TITLE": "Borttagna grupper",
+      "ASSIGNMENTS_TITLE": "Borttagna uppgifter",
+      "NO_GROUPS": "Inga borttagna grupper.",
+      "NO_ASSIGNMENTS": "Inga borttagna uppgifter.",
+      "STUDENT_COUNT": "{{count}} elever",
+      "ASSIGNMENT_COUNT": "{{count}} uppgifter",
+      "MARK_COUNT": "{{count}} markeringar",
+      "FINAL_GRADE_COUNT": "{{count}} slutbetyg",
+      "RESTORE_GROUP": "Återställ grupp",
+      "RESTORE_ASSIGNMENT": "Återställ uppgift"
+    },
+    "API_PLAYGROUND": {
+      "TITLE": "Skolverket API-lekplats",
+      "SUBTITLE": "Utforska och testa det svenska läroplanens API-endpoints",
+      "ENDPOINTS": "API-endpoints",
+      "SELECT_ENDPOINT": "Välj en Endpoint",
+      "SELECT_ENDPOINT_DESC": "Välj en endpoint från sidomenyn för att utforska Skolverkets kursplans-API. Du kan testa förfrågningar, visa svar och förstå hur varje endpoint används för Lektoria."
+    }
+  },
+  "MARKING": {
+    "STUDENT": "Elev",
+    "COMMENT": "Kommentar",
+    "NO_STUDENTS": "Inga elever i denna grupp. Lägg till elever för att börja bedöma.",
+    "NO_SKILLS": "Inga färdigheter valda för denna uppgift.",
+    "LEGEND": "Betygsförklaring:",
+    "ADD_COMMENT": "Lägg till kommentar",
+    "COMMENT_TITLE": "Lägg till kommentar",
+    "COMMENT_TITLE_FOR": "Redigera kommentar för {{student}}",
+    "COMMENT_PLACEHOLDER": "Skriv en kommentar för detta betyg...",
+    "EDITOR": {
+      "PARAGRAPH": "Stycke",
+      "HEADING_1": "Rubrik 1",
+      "HEADING_2": "Rubrik 2",
+      "HEADING_3": "Rubrik 3",
+      "BOLD": "Fet",
+      "ITALIC": "Kursiv",
+      "UNDERLINE": "Understruken",
+      "STRIKE": "Genomstruken",
+      "CODE": "Kod i text",
+      "SUBSCRIPT": "Nedsänkt",
+      "SUPERSCRIPT": "Upphöjt",
+      "BULLET_LIST": "Punktlista",
+      "ORDERED_LIST": "Numrerad lista",
+      "QUOTE": "Citat",
+      "ALIGN_LEFT": "Vänsterställ",
+      "ALIGN_CENTER": "Centrera",
+      "ALIGN_RIGHT": "Högerställ",
+      "ALIGN_JUSTIFY": "Marginaljustera",
+      "LINK": "Lägg till eller redigera länk",
+      "UNLINK": "Ta bort länk",
+      "CLEAR_FORMATTING": "Rensa formatering",
+      "UNDO": "Ångra",
+      "REDO": "Gör om"
+    },
+    "PREVIOUS_STUDENT": "Föregående elev",
+    "NEXT_STUDENT": "Nästa elev",
+    "CLEAR_SELECTION": "Rensa val",
+    "BETWEEN_E_AND_C": "Mellan E och C",
+    "BETWEEN_C_AND_A": "Mellan C och A",
+    "NOT_PASSED": "Ej godkänt",
+    "PREVIOUS": "Föregående",
+    "NEXT": "Nästa",
+    "NUMERIC": {
+      "SETUP": "Konfigurera poängbedömning",
+      "CONFIGURE": "Poängbedömning",
+      "CONFIG_TITLE": "Konfigurera poängbedömning",
+      "CONFIG_TITLE_EDIT": "Redigera poängbedömning",
+      "MAX_SCORE": "Högsta poäng",
+      "POINTS": "poäng",
+      "SCORE": "Poäng",
+      "PERCENT": "Procent",
+      "GRADE_LABEL": "Betyg",
+      "THRESHOLDS": "Betygsgränser",
+      "THRESHOLDS_LABEL": "Betygsgränser (minim. %)",
+      "THRESHOLDS_HINT": "En elev behöver minst denna procent för att uppnå betyget. Procent avrundas normalt (0,5 och uppåt rundar upp).",
+      "MIN_PERCENT": "Min %",
+      "MAX_SHORT": "max",
+      "SCORE_HINT": "ange maxpoäng för att omvandla siffror till betyg",
+      "DISABLE": "Inaktivera poängbedömning"
+    },
+    "LOCKED_BANNER": "Uppgiften är markerad som slutförd och kan inte redigeras.",
+    "LOCKED_UNLOCK": "Lås upp",
+    "ABSENT_SHORT": "Frånvarande",
+    "OVERALL_GRADE": "Sammanvägt betyg",
+    "INCOMPLETE": "Ej färdigbedömd",
+    "ABSENT_TOOLTIP": "Markera eleven som frånvarande (deltog ej)",
+    "MISSING_GRADES": {
+      "COUNT_LABEL": "saknas",
+      "DIALOG_TITLE": "Elever som saknar betyg i {{assignment}}",
+      "DIALOG_SUMMARY": "{{count}} elever saknar fortfarande ett sammanfattande betyg för denna uppgift.",
+      "NONE": "Alla elever har ett betyg för denna uppgift."
+    },
+    "GRADE_CONFIRM": {
+      "TITLE": "Bekräfta betygsändring",
+      "CONFIRM": "Ändra betyg",
+      "STUDENT": "Elev",
+      "SKILL": "Färdighet",
+      "CONTEXT": "Kontext",
+      "CHANGE": "Ändring",
+      "ASSIGNMENT_CONTEXT": "Uppgiftsbetyg",
+      "GLOBAL_CONTEXT": "Globalt färdighetsbetyg",
+      "NO_GRADE": "Inget betyg",
+      "ASSIGNMENT_MESSAGE": "Är du säker på att du vill ändra {{student}}s betyg för {{skill}} i {{assignment}} från {{from}} till {{to}}?",
+      "GLOBAL_MESSAGE": "Är du säker på att du vill ändra {{student}}s övergripande betyg i {{skill}} från {{from}} till {{to}}?",
+      "ABSENT_MESSAGE": "Eleven har redan betyg. Att markera som frånvarande tar bort alla betyg för denna uppgift. Fortsätta?"
+    },
+    "GRADE_IMPORT": {
+      "BUTTON": "Importera Excel",
+      "BUTTON_TITLE": "Importera betyg från en Excel-fil",
+      "TITLE": "Importera betyg från Excel",
+      "SKILL_PROMPT": "Vilken färdighet ska de importerade poängen tilldelas?",
+      "SELECT_SKILL": "Målfärdighet",
+      "NEXT": "Nästa",
+      "MATCHED": "{{count}} elever matchade",
+      "UNMATCHED": "{{count}} elever hittades inte",
+      "MAX_SCORE_LABEL": "Högsta poäng för denna uppgift",
+      "MAX_SCORE_HINT": "Krävs för att omvandla råpoäng till betygsnivåer.",
+      "MAX_SCORE_REQUIRED": "Ange högsta poäng innan du importerar.",
+      "EXCEL_NAME": "Namn i Excel",
+      "SKIP": "hoppa över",
+      "SKIP_HINT": "{{count}} omatchade elever hoppas över.",
+      "IMPORT_N": "Importera {{count}} elever"
+    },
+    "RETAKE": {
+      "BUTTON": "Schemalägg komplettering",
+      "BUTTON_TITLE": "Schemalägg en komplettering för elever",
+      "DIALOG_TITLE": "Schemalägg komplettering",
+      "EDIT": "Redigera komplettering",
+      "EDIT_DIALOG_TITLE": "Redigera komplettering",
+      "LABEL": "Komplettering",
+      "DATE_LABEL": "Datum",
+      "STUDENTS_LABEL": "Välj elever",
+      "STUDENTS_SELECTED": "{{count}} valda",
+      "STUDENTS_REQUIRED": "Välj minst en elev",
+      "NO_STUDENTS": "Inga elever i gruppen",
+      "SCHEDULE_BUTTON": "Schemalägg",
+      "UPDATE_BUTTON": "Spara ändringar",
+      "ACTIVE_GRADE_NOTE": "Kompletteringsbetyget räknas",
+      "DELETE": "Ta bort komplettering",
+      "HAS_RETAKE_TOOLTIP": "Har en komplettering",
+      "FILTER_RETAKES": "Visa bara kompletteringar",
+      "SHOW_ALL": "Visa alla elever",
+      "FILTER_ACTIVE": "Endast kompletteringar",
+      "DELETE_CONFIRM_TITLE": "Ta bort komplettering?",
+      "DELETE_CONFIRM_MESSAGE": "Detta tar bort kompletteringen och alla betyg kopplade till den. Åtgärden kan inte ångras.",
+      "RETAKE_MAX_SCORE": "Komp.max"
+    }
+  },
+  "GRADES": {
+    "A": "Utmärkt",
+    "B": "Mycket bra",
+    "C": "Bra",
+    "D": "Tillfredsställande",
+    "E": "Godtagbart",
+    "F": "Icke godkänt"
+  },
+  "EXCEL_IMPORT": {
+    "DOWNLOAD_TEMPLATE": "Ladda ner Excel-mall",
+    "DOWNLOAD_TEMPLATE_SHORT": "Ladda ner mall",
+    "UPLOAD_EXCEL": "Ladda upp Excel",
+    "PREVIEW_TITLE": "Förhandsgranska import",
+    "WARNINGS_FOUND": "Varningar",
+    "ERRORS_FOUND": "Fel hittades",
+    "EXISTING_GROUPS": "Befintliga grupper",
+    "WILL_ADD_STUDENTS": "Elever kommer att läggas till i dessa befintliga grupper",
+    "NEW_GROUPS": "Nya grupper",
+    "WILL_CREATE_GROUPS": "Dessa grupper kommer att skapas",
+    "STUDENTS": "elever",
+    "NO_DATA": "Ingen data hittades i filen",
+    "CONTINUE": "Fortsätt",
+    "CREATE_GROUPS_TITLE": "Skapa nya grupper",
+    "CREATE_GROUPS_DESC": "Fyll i information för varje ny grupp från Excel-filen",
+    "SELECT_SUBJECT": "Välj ämne",
+    "SELECT_YEAR": "Välj årskurs",
+    "CREATING": "Skapar...",
+    "CREATE_AND_IMPORT": "Skapa grupper och importera",
+    "CREATE_ERROR": "Kunde inte skapa gruppen '{{name}}'",
+    "SUCCESS_TITLE": "Import slutförd!",
+    "SUCCESS_EXISTING": "Lade till {{count}} elever till befintliga grupper.",
+    "SUCCESS_NEW": "Skapade {{groups}} grupper och lade till {{students}} elever."
+  },
+  "TESTS": {
+    "SEARCH_PLACEHOLDER": "Sök prov...",
+    "SORT": {
+      "NAME": "Namn",
+      "DATE": "Datum"
+    },
+    "NO_RESULTS": {
+      "TITLE": "Inga prov hittades",
+      "DESCRIPTION": "Prova en annan sökning."
+    },
+    "CREATE_TITLE": "Skapa prov",
+    "EDIT_TITLE": "Redigera prov",
+    "VIEW_GRADES": "Visa betyg",
+    "ASSIGNMENT_COUNT": "{{count}} uppgifter",
+    "NO_ASSIGNMENTS": "Inga uppgifter",
+    "NO_ASSIGNMENTS_IN_TEST": "Inga uppgifter har lagts till i detta prov \u00e4nnu. Redigera provet f\u00f6r att l\u00e4gga till uppgifter.",
+    "EMPTY": {
+      "TITLE": "Inga prov \u00e4nnu",
+      "DESCRIPTION": "Skapa ett prov f\u00f6r att gruppera uppgifter f\u00f6r bed\u00f6mning."
+    },
+    "NOT_FOUND": {
+      "TITLE": "Provet hittades inte",
+      "DESCRIPTION": "Detta prov kan ha tagits bort."
+    },
+    "DELETE": {
+      "TITLE": "Ta bort prov",
+      "MESSAGE": "\u00c4r du s\u00e4ker p\u00e5 att du vill ta bort '{{name}}'? Uppgifterna i provet tas inte bort.",
+      "CONFIRM": "Ta bort"
+    },
+    "FIELDS": {
+      "NAME": "Provnamn",
+      "NAME_PLACEHOLDER": "t.ex. Kapitel 1 Prov",
+      "DESCRIPTION": "Beskrivning",
+      "DESCRIPTION_PLACEHOLDER": "Valfri beskrivning...",
+      "START_DATE": "Startdatum",
+      "DUE_DATE": "Slutdatum",
+      "DUE": "Senast",
+      "ASSIGNMENTS": "Inkludera uppgifter",
+      "ASSIGNMENTS_SELECTED": "{{count}} valda",
+      "NO_ASSIGNMENTS_AVAILABLE": "Inga uppgifter i gruppen \u00e4nnu. L\u00e4gg till uppgifter f\u00f6rst.",
+      "IN_OTHER_TEST": "I annat prov",
+      "ASSIGN_TO_TEST": "Prov (valfritt)",
+      "NO_TEST": "\u2014 Inget prov \u2014"
+    }
+  },
+  "HOMEWORK": {
+    "SECTION_TITLE": "Läxor",
+    "CREATE_TITLE": "Skapa läxa",
+    "EDIT_TITLE": "Redigera läxa",
+    "TOTAL": "Totalt",
+    "CLASS_AVERAGE": "Klassens medel",
+    "MAX_SCORE_SHORT": "max {{score}} p",
+    "ABSENT_SHORT": "Frånv.",
+    "MARK_ABSENT": "Markera som frånvarande",
+    "ABSENT_CONFIRM": {
+      "TITLE": "Markera som frånvarande",
+      "MESSAGE": "{{student}} har redan {{score}} av {{max}} poäng på \"{{homework}}\". Att markera som frånvarande tar bort poängen. Fortsätta?"
+    },
+    "MARK_PRESENT": "Ta bort frånvaro",
+    "MISSING_COUNT": "{{count}} saknas",
+    "NO_DESCRIPTION": "Ingen beskrivning",
+    "NONE": "Inga läxor i den här gruppen ännu",
+    "OVERALL": "Totalt läxresultat",
+    "HANDED_IN": "Inlämnade",
+    "SCORE": "Poäng",
+    "PERCENT": "Procent",
+    "STATUS": {
+      "LABEL": "Status",
+      "SCORED": "Inlämnad",
+      "MISSING": "Saknas",
+      "ABSENT": "Frånvarande"
+    },
+    "EMPTY": {
+      "TITLE": "Inga läxor ännu",
+      "DESCRIPTION": "Skapa en läxa för att börja följa upp elevernas läxor."
+    },
+    "DELETE": {
+      "TITLE": "Ta bort läxa",
+      "MESSAGE": "Är du säker på att du vill ta bort '{{title}}'? Alla inmatade poäng tas också bort.",
+      "CONFIRM": "Ta bort"
+    },
+    "FIELDS": {
+      "TITLE": "Titel",
+      "TITLE_PLACEHOLDER": "t.ex. Glosor kapitel 3",
+      "DESCRIPTION": "Beskrivning",
+      "DESCRIPTION_PLACEHOLDER": "Valfri beskrivning...",
+      "DATE": "Datum",
+      "MAX_SCORE": "Max poäng",
+      "MAX_SCORE_INVALID": "Ange ett tal större än 0"
+    }
+  }
+}

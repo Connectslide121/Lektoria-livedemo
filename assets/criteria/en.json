@@ -1,0 +1,235 @@
+{
+  "subject": "EN",
+  "subjectCode": "GRGRENG01",
+  "subjectName": "Engelska",
+  "subjectNameEn": "English",
+  "curriculum": "GR",
+  "curriculumName": "Grundskolan",
+  "version": 14,
+  "skolfsGrund": "2010:37",
+  "skolfsAndring": "2022:8",
+  "validFrom": "2022-07-01",
+  "fetchedAt": "2026-01-01T00:00:00Z",
+  "source": "https://api.skolverket.se/syllabus/v1/subjects/GRGRENG01",
+  "abilityAreas": [
+    {
+      "id": "reception",
+      "nameSv": "Lyssna och läsa – reception",
+      "nameEn": "Listening and reading – reception",
+      "description": "Förstå och tolka innehållet i talat språk och texter"
+    },
+    {
+      "id": "production",
+      "nameSv": "Tala och skriva – produktion",
+      "nameEn": "Speaking and writing – production",
+      "description": "Formulera sig i tal och skrift"
+    },
+    {
+      "id": "interaction",
+      "nameSv": "Samtala – interaktion",
+      "nameEn": "Conversation – interaction",
+      "description": "Samtala och kommunicera med andra"
+    },
+    {
+      "id": "cultural",
+      "nameSv": "Kulturella förhållanden",
+      "nameEn": "Cultural conditions",
+      "description": "Förstå kulturella och sociala förhållanden"
+    }
+  ],
+  "gradeYears": ["6", "9"],
+  "criteria": [
+    {
+      "id": "EN_6_E_reception",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "reception",
+      "textSv": "Eleven lyssnar samt förstår och tolkar det mest väsentliga av innehållet i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar det mest väsentliga av innehållet i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett delvis relevant sätt det valda materialet i sin egen produktion och interaktion.",
+      "keyPhrases": ["det mest väsentliga", "på ett delvis relevant sätt"]
+    },
+    {
+      "id": "EN_6_C_reception",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "reception",
+      "textSv": "Eleven lyssnar samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett relevant sätt det valda materialet i sin egen produktion och interaktion.",
+      "keyPhrases": ["huvudsakligt innehåll och tydliga detaljer", "på ett relevant sätt"]
+    },
+    {
+      "id": "EN_6_A_reception",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "reception",
+      "textSv": "Eleven lyssnar samt förstår och tolkar helheten och väsentliga detaljer i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar helheten och väsentliga detaljer i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett relevant och effektivt sätt det valda materialet i sin egen produktion och interaktion.",
+      "keyPhrases": ["helheten och väsentliga detaljer", "på ett relevant och effektivt sätt"]
+    },
+    {
+      "id": "EN_6_E_production",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "production",
+      "textSv": "I muntliga framställningar av olika slag formulerar sig eleven enkelt och begripligt med fraser och meningar. I skriftliga framställningar av olika slag formulerar sig eleven enkelt och begripligt med fraser och meningar.",
+      "keyPhrases": ["enkelt och begripligt med fraser och meningar"]
+    },
+    {
+      "id": "EN_6_C_production",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "production",
+      "textSv": "I muntliga framställningar av olika slag formulerar sig eleven enkelt, relativt tydligt och till viss del sammanhängande. I skriftliga framställningar av olika slag formulerar sig eleven enkelt, relativt tydligt och till viss del sammanhängande.",
+      "keyPhrases": ["enkelt, relativt tydligt och till viss del sammanhängande"]
+    },
+    {
+      "id": "EN_6_A_production",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "production",
+      "textSv": "I muntliga framställningar av olika slag formulerar sig eleven i någon mån varierat, relativt tydligt och relativt sammanhängande. I skriftliga framställningar av olika slag formulerar sig eleven i någon mån varierat, relativt tydligt och relativt sammanhängande.",
+      "keyPhrases": ["i någon mån varierat, relativt tydligt och relativt sammanhängande"]
+    },
+    {
+      "id": "EN_6_E_interaction",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "interaction",
+      "textSv": "I interaktion uttrycker sig eleven enkelt och begripligt med ord, fraser och meningar. Dessutom använder eleven strategier som i någon mån underlättar och förbättrar interaktionen.",
+      "keyPhrases": ["enkelt och begripligt", "i någon mån"]
+    },
+    {
+      "id": "EN_6_C_interaction",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "interaction",
+      "textSv": "I interaktion uttrycker sig eleven enkelt och relativt tydligt med ord, fraser och meningar. Dessutom använder eleven strategier som i viss utsträckning underlättar och förbättrar interaktionen.",
+      "keyPhrases": ["enkelt och relativt tydligt", "i viss utsträckning"]
+    },
+    {
+      "id": "EN_6_A_interaction",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "interaction",
+      "textSv": "I interaktion uttrycker sig eleven relativt tydligt med ord, fraser och meningar samt i någon mån anpassat till syfte, mottagare och situation. Dessutom använder eleven strategier som underlättar och förbättrar interaktionen.",
+      "keyPhrases": ["relativt tydligt", "i någon mån anpassat", "underlättar och förbättrar"]
+    },
+    {
+      "id": "EN_6_E_cultural",
+      "year": "6",
+      "gradeStep": "E",
+      "abilityArea": "cultural",
+      "textSv": "Eleven kommenterar på ett enkelt sätt, på engelska, förhållanden i olika sammanhang och områden där språket används.",
+      "keyPhrases": ["på ett enkelt sätt"]
+    },
+    {
+      "id": "EN_6_C_cultural",
+      "year": "6",
+      "gradeStep": "C",
+      "abilityArea": "cultural",
+      "textSv": "Eleven kommenterar på ett enkelt sätt, på engelska, förhållanden i olika sammanhang och områden där språket används.",
+      "keyPhrases": ["på ett enkelt sätt"]
+    },
+    {
+      "id": "EN_6_A_cultural",
+      "year": "6",
+      "gradeStep": "A",
+      "abilityArea": "cultural",
+      "textSv": "Eleven kommenterar översiktligt, på engelska, förhållanden i olika sammanhang och områden där språket används.",
+      "keyPhrases": ["översiktligt"]
+    },
+    {
+      "id": "EN_9_E_reception",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "reception",
+      "textSv": "Eleven lyssnar samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i talat språk i måttligt tempo och i olika sammanhang. Eleven läser samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i lättillgängliga texter av olika slag. Eleven väljer och värderar innehåll i muntliga och skriftliga källor av olika slag samt använder på ett delvis relevant sätt det valda materialet i sin egen produktion och interaktion.",
+      "keyPhrases": ["huvudsakligt innehåll och tydliga detaljer", "på ett delvis relevant sätt"]
+    },
+    {
+      "id": "EN_9_C_reception",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "reception",
+      "textSv": "Eleven lyssnar samt förstår och tolkar på ett välgrundat sätt huvudsakligt innehåll och väsentliga detaljer i talat språk i måttligt tempo och i olika sammanhang. Eleven läser samt förstår och tolkar på ett välgrundat sätt huvudsakligt innehåll och väsentliga detaljer i lättillgängliga texter av olika slag. Eleven väljer och värderar innehåll i muntliga och skriftliga källor av olika slag samt använder på ett relevant sätt det valda materialet i sin egen produktion och interaktion.",
+      "keyPhrases": ["på ett välgrundat sätt", "väsentliga detaljer", "på ett relevant sätt"]
+    },
+    {
+      "id": "EN_9_A_reception",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "reception",
+      "textSv": "Eleven lyssnar samt förstår och tolkar på ett välgrundat och nyanserat sätt såväl helhet som detaljer i talat språk i måttligt tempo och i olika sammanhang. Eleven läser samt förstår och tolkar på ett välgrundat och nyanserat sätt såväl helhet som detaljer i lättillgängliga texter av olika slag. Eleven väljer och värderar innehåll i muntliga och skriftliga källor av olika slag samt använder på ett relevant och effektivt sätt det valda materialet i sin egen produktion och interaktion.",
+      "keyPhrases": ["på ett välgrundat och nyanserat sätt", "såväl helhet som detaljer", "på ett relevant och effektivt sätt"]
+    },
+    {
+      "id": "EN_9_E_production",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "production",
+      "textSv": "I muntliga framställningar av olika slag formulerar sig eleven enkelt, begripligt och relativt sammanhängande. I skriftliga framställningar av olika slag formulerar sig eleven enkelt, begripligt och relativt sammanhängande.",
+      "keyPhrases": ["enkelt, begripligt och relativt sammanhängande"]
+    },
+    {
+      "id": "EN_9_C_production",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "production",
+      "textSv": "I muntliga framställningar av olika slag formulerar sig eleven med viss variation, relativt tydligt och relativt sammanhängande. Eleven formulerar sig även med visst flyt och i någon mån anpassat till syfte, mottagare och situation. I skriftliga framställningar av olika slag formulerar sig eleven med viss variation, relativt tydligt och relativt sammanhängande. Eleven formulerar sig även med visst flyt och i någon mån anpassat till syfte, mottagare och situation.",
+      "keyPhrases": ["med viss variation", "med visst flyt", "i någon mån anpassat"]
+    },
+    {
+      "id": "EN_9_A_production",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "production",
+      "textSv": "I muntliga framställningar av olika slag formulerar sig eleven med viss variation, tydligt och sammanhängande. Eleven formulerar sig även med flyt och viss anpassning till syfte, mottagare och situation. I skriftliga framställningar av olika slag formulerar sig eleven med viss variation, tydligt och sammanhängande. Eleven formulerar sig även med flyt och viss anpassning till syfte, mottagare och situation.",
+      "keyPhrases": ["tydligt och sammanhängande", "med flyt", "viss anpassning"]
+    },
+    {
+      "id": "EN_9_E_interaction",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "interaction",
+      "textSv": "I interaktion i olika sammanhang uttrycker sig eleven enkelt och begripligt samt i någon mån anpassat till syfte, mottagare och situation. Dessutom använder eleven strategier som i viss utsträckning underlättar och förbättrar interaktionen.",
+      "keyPhrases": ["enkelt och begripligt", "i någon mån anpassat", "i viss utsträckning"]
+    },
+    {
+      "id": "EN_9_C_interaction",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "interaction",
+      "textSv": "I interaktion i olika sammanhang uttrycker sig eleven relativt tydligt och med visst flyt samt i någon mån anpassat till syfte, mottagare och situation. Dessutom använder eleven strategier som underlättar och förbättrar interaktionen.",
+      "keyPhrases": ["relativt tydligt och med visst flyt", "i någon mån anpassat"]
+    },
+    {
+      "id": "EN_9_A_interaction",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "interaction",
+      "textSv": "I interaktion i olika sammanhang uttrycker sig eleven tydligt och med flyt samt med viss anpassning till syfte, mottagare och situation. Dessutom använder eleven strategier som underlättar och förbättrar interaktionen och för den framåt på ett konstruktivt sätt.",
+      "keyPhrases": ["tydligt och med flyt", "viss anpassning", "för den framåt på ett konstruktivt sätt"]
+    },
+    {
+      "id": "EN_9_E_cultural",
+      "year": "9",
+      "gradeStep": "E",
+      "abilityArea": "cultural",
+      "textSv": "Eleven diskuterar översiktligt, på engelska, förhållanden i olika sammanhang och områden där språket används, även utifrån egna erfarenheter eller kunskaper.",
+      "keyPhrases": ["översiktligt"]
+    },
+    {
+      "id": "EN_9_C_cultural",
+      "year": "9",
+      "gradeStep": "C",
+      "abilityArea": "cultural",
+      "textSv": "Eleven diskuterar utvecklat, på engelska, förhållanden i olika sammanhang och områden där språket används, även utifrån egna erfarenheter eller kunskaper.",
+      "keyPhrases": ["utvecklat"]
+    },
+    {
+      "id": "EN_9_A_cultural",
+      "year": "9",
+      "gradeStep": "A",
+      "abilityArea": "cultural",
+      "textSv": "Eleven diskuterar välutvecklat, på engelska, förhållanden i olika sammanhang och områden där språket används, även utifrån egna erfarenheter eller kunskaper.",
+      "keyPhrases": ["välutvecklat"]
+    }
+  ]
+}
