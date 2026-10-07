@@ -21,6 +21,13 @@
     "NO_TODAY": "Inga uppgifter idag",
     "OVERDUE": "Försenade uppgifter",
     "DAYS_OVERDUE": "dagar försenad",
+    "TIME_AGO": {
+      "JUST_NOW": "Just nu",
+      "MINUTES": "{{count}} min sedan",
+      "HOURS": "{{count}} tim sedan",
+      "YESTERDAY": "Igår",
+      "DAYS": "{{count}} dagar sedan"
+    },
     "UPCOMING": "Kommande uppgifter",
     "NO_UPCOMING": "Inga kommande uppgifter denna vecka",
     "RECENT_ACTIVITY": "Senaste aktivitet",

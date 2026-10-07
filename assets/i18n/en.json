@@ -21,6 +21,13 @@
     "NO_TODAY": "No assignments due today",
     "OVERDUE": "Overdue Assignments",
     "DAYS_OVERDUE": "days overdue",
+    "TIME_AGO": {
+      "JUST_NOW": "Just now",
+      "MINUTES": "{{count}} min ago",
+      "HOURS": "{{count}} h ago",
+      "YESTERDAY": "Yesterday",
+      "DAYS": "{{count}} days ago"
+    },
     "UPCOMING": "Upcoming Assignments",
     "NO_UPCOMING": "No upcoming assignments this week",
     "RECENT_ACTIVITY": "Recent Activity",
